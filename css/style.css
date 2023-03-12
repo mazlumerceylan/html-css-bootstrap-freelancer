@@ -1,0 +1,9 @@
+.debug{
+  border: 1px solid black;
+  min-height: 50px;
+}
+
+.me-jumbotron{
+  height: 500px;
+  background-color: blue;
+}
