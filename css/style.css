@@ -1,9 +1,21 @@
 .debug{
   border: 1px solid black;
-  min-height: 50px;
+  min-height: 0px;
 }
 
+
+
+.me-container-fluid{
+  height: 400px;
+}
 .me-jumbotron{
   height: 500px;
-  background-color: blue;
+}
+
+.me-container{
+  height: 400px;
+}
+
+.end-container-fluid{
+  height: 100px;
 }
