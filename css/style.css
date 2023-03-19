@@ -1,21 +1,101 @@
-.debug{
-  border: 1px solid black;
-  min-height: 50px;
-}
-
-
-
-.me-container-fluid{
-  height: 400px;
-}
-.me-jumbotron{
-  height: 500px;
-}
 
 .me-container{
-  height: 400px;
+  width: 60%;
+  margin: 0 40%;
 }
 
-.end-container-fluid{
-  height: 100px;
+.me-star{
+  font-size: 30px;
+}
+
+.me-star i{
+  margin: 0 3%;
+  vertical-align: middle;
+}
+
+.me-star::after,
+.me-star::before{
+  content: '';
+  display: inline-block;
+  height: 3px;
+  width: 15%;
+  background-color: white;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+.dark .me-star::after,
+.dark .me-star::before{
+  background-color: black;
+}
+
+.green{
+  background-color: rgb(26 184 151);
+  color: white;
+}
+
+ 
+
+header{
+  background-color: #2C3E50;
+  height: 90px;
+  color: white;
+}
+
+.me-navbar .navbar-brand,
+.me-navbar .navbar-nav .nav-link{
+  color: white;
+}
+
+.me-navbar .navbar-nav .nav-link:hover{
+  color: blue;
+}
+
+.me-navbar .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.me-jumbotron{
+  background-color: #31BC9C;
+  height: 495px;
+  color: white;
+}
+
+.me-jumbotron .avatar{
+  width: 250px;
+}
+
+.me-card{
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 15px 0;
+  cursor: pointer
+}
+
+.me-card .me-layover{
+  color: white;
+  opacity: 0;
+  transition: all .3s;
+}
+
+.me-card .me-layover i{
+  font-size: 60px;
+}
+
+.me-card:hover .me-layover{
+  opacity: 1;
+}
+
+
+
+
+footer{
+  color: white;
+}
+
+.footer-top{
+  background-color: #3A546D;
+}
+.footer-bottom{
+  background-color: #2C3E50;
 }
